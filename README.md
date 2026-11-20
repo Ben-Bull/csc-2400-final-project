@@ -1,12 +1,12 @@
-# Algorithmic Optimization of The Farmer Was Replaced()
+f# Algorithmic Optimization of The Farmer Was Replaced()
 Group project for CSC2400 (Design of Algorithms)
 
 ### Project Overview
 Briefly describe the computational problem, its inputs and outputs, and what makes
 a solution optimal.
-The problem we are trying to solve is how to most efficiently complete the game "The Farmer Was Replaced()" using a "Full Reset" run of the game. To summarize, the game gives you a shell to work with and you are tasked to completely code and automate a robot to harvest crops to upgrade itself and eventually win by unlocking a leaderboard node. Initially, this was an NP-hard problem, as there were way too many moving parts and most of us were not familiar with the game. Ultimately, our problem was simplified down to just the upgrade tree, which will be represented by a weighted directed graph, with weights being dynamically adjusted based on prior upgrades.
+The problem we are trying to solve is how to most efficiently complete the game "The Farmer Was Replaced()" using a "Full Reset" run of the game. To summarize, the game gives you a shell to work with and you are tasked to completely code and automate a robot to harvest crops to upgrade itself and eventually win by unlocking a leaderboard node. Initially, this was an NP-hard problem, as there were way too many moving parts and most of us were not familiar with the game. Ultimately, our problem was simplified down to just the upgrade tree, which will be represented by a weighted undirected graph, with weights being dynamically adjusted based on prior upgrades.
 
-An input looks like a set of valid upgrades in the tree. If an input skips a node or goes in the wrong direction, it is an invalid upgrade. There are fourteen required nodes and twenty optional nodes for completion, so an input is between lengths 14 and 34.
+An input looks like a set of valid upgrades in the tree. If an input skips a node, it is an invalid upgrade. There are fourteen required nodes and twenty optional nodes for completion, so an input is between lengths 14 and 34.
 
 An output will look like the time it takes to complete the game using a predefined set of code within the game. An optimized solution will have the best possible time, and that will be found using our algorithms.
 
