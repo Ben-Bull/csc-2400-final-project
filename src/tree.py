@@ -4,8 +4,6 @@
     Purpose - Serve as tree for the algorithms
 '''
 
-#ADD END
-
 #node for tree, with each node having an initial level of 0 and costing an item to upgrade
 class Node:
     def __init__(self, data, level, maxlevel, ):
