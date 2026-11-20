@@ -10,6 +10,9 @@ An input looks like a set of valid upgrades in the tree. If an input skips a nod
 
 An output will look like the time it takes to complete the game using a predefined set of code within the game. An optimized solution will have the best possible time, and that will be found using our algorithms.
 
+### In-Progress Documents
+In-game Optimization Spreadsheet: https://docs.google.com/spreadsheets/d/1PI8f8Hs-sWApmiEnL6VNyektc-77cWffpSFwHtN0xAE/edit?usp=sharing
+
 ### Team Members
 - Ben Bull:
 - Jackson Phibbs:
