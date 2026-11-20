@@ -1,4 +1,4 @@
-f# Algorithmic Optimization of The Farmer Was Replaced()
+# Algorithmic Optimization of The Farmer Was Replaced()
 Group project for CSC2400 (Design of Algorithms)
 
 ### Project Overview
